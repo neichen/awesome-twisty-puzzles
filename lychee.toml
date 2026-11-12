@@ -1,0 +1,7 @@
+# Link-checker config used by .github/workflows/links.yml
+user_agent = "Mozilla/5.0 (compatible; AwesomeTwistyPuzzles-lychee/1.0)"
+timeout = 30
+max_redirects = 10
+max_concurrency = 8
+accept = ["200", "206"]
+scheme = ["https", "http"]
